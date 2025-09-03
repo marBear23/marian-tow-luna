@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #35323f;
+}
+
+h1 {
+  background-color: #ccc;
+  color: #a917de;
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+}
+h2 {
+  background-color: #ccc;
+  color: #a917de;
+  text-align: center;
+  font-size: 30px;
+}
+
+p {
+  color: #ccc;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  text-align: center;
+}
+section {
+  padding: 5px;
+  margin: 10px;
+  color: #ccc;
+}
+
+#main-header {
+  border-bottom: 1px solid #4a4747;
+  padding-bottom: 10px;
+}
+#About {
+  border-bottom: 1px solid #4a4747;
+  padding-bottom: 10px;
+}
+#Experience {
+  border-bottom: 1px solid #4a4747;
+  padding-bottom: 10px;
+}
+#Connect {
+  border-bottom: 1px solid #4a4747;
+  padding-bottom: 10px;
+}
+li {
+  border: #a917de;
+  width: 150px;
+  background-color: #a917de;
+  border: #ccc;
+  border-style: solid;
+  margin: 10px;
+}
+a {
+  color: #a917de;
+  background-color: #ccc;
+}
