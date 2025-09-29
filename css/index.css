@@ -97,6 +97,22 @@ section {
   border-bottom: 1px solid #4a4747;
   padding-bottom: 10px;
 }
+#Skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+#Skills li {
+  font-size: medium;
+  color: #ccc;
+  background-color: #a917de;
+  padding: 0.5rem 1rem;
+  border-radius: 15%;
+  text-align: center;
+}
 /*.pContainer {
   display: flex;
   margin-left: auto;
