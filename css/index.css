@@ -139,12 +139,46 @@ img {
   flex-wrap: wrap;
   flex-direction: column;
 }
+form {
+  background-color: black;
+  color: #a917de;
+  padding: 20px;
+  margin: 15px;
+}
 #Connect ul {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   text-align: center;
   justify-content: center;
+}
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 15px; /* Spacing below the field */
+  box-sizing: border-box; /* Include padding/border in width calculation */
+}
+
+@media (max-width: 768px) {
+  textarea {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+#Messages ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+#Messages li {
+  background-color: #a917de;
+  color: #35323f;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
 }
 ul {
   list-style-type: none;
