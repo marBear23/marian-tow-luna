@@ -102,3 +102,37 @@ messageForm.addEventListener("submit", function (event) {
 
   messageForm.reset();
 });
+
+// API Lesson- GitHub Repositories
+
+fetch("https://api.github.com/users/marBear23/repos")
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error("Request failed");
+    }
+    return response.json(); // Parse the response as JSON
+  })
+  .then((repositories) => {
+    console.log("Repositories: ", repositories);
+    const projectSection = document.getElementById("Projects");
+    const projectList = projectSection.querySelector("ul");
+    projectList.innerHTML = "";
+    for (let i = 0; i < repositories.length; i++) {
+      const project = document.createElement("li");
+      const link = document.createElement("a");
+      link.href = repositories[i].html_url;
+      link.textContent = repositories[i].name;
+      if (!repositories[i].fork) {
+        project.appendChild(link);
+        projectList.appendChild(project);
+      }
+    }
+  })
+  .catch((error) => {
+    console.error("An error occurred:", error);
+    const projectSection = document.getElementById("Projects");
+
+    const errorMessage = document.createElement("p");
+    errorMessage.innerHTML = "Unable to load projects. Please try again later.";
+    projectSection.appendChild(errorMessage);
+  });

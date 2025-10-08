@@ -126,11 +126,21 @@ img {
   margin-right: auto;
   width: 50%;
 }
+#Projects ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-size: medium;
+  padding: 0.5rem 1rem;
+  border-radius: 15%;
+  text-align: center;
+}
 #Experience ul {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  padding: 15px;
 }
 #Experience li {
   border-bottom: 1px solid #4a4747;
@@ -145,6 +155,7 @@ form {
   padding: 20px;
   margin: 15px;
 }
+
 #Connect ul {
   display: flex;
   flex-wrap: wrap;
@@ -198,5 +209,4 @@ a {
 a:hover {
   color: #4a4747;
   background: #ccc;
-  width: 200px;
 }
