@@ -184,6 +184,8 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  color: antiquewhite;
+  padding-right: 10px;
 }
 #Messages li {
   background-color: #7c1e8d;
