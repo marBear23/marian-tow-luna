@@ -49,7 +49,7 @@ nav li {
   margin-right: auto;
   padding: 2px;
   max-width: 600px;
-  background-color: #a917de;
+  background-color: #7c1e8d;
   border-radius: 5px;
 }
 nav ul a {
@@ -108,7 +108,7 @@ section {
 #Skills li {
   font-size: medium;
   color: #ccc;
-  background-color: #a917de;
+  background-color: #7c1e8d;
   padding: 0.5rem 1rem;
   border-radius: 15%;
   text-align: center;
@@ -135,6 +135,9 @@ img {
   border-radius: 15%;
   text-align: center;
 }
+#Projects li {
+  padding: 15px;
+}
 #Experience ul {
   display: flex;
   flex-wrap: wrap;
@@ -150,8 +153,8 @@ img {
   flex-direction: column;
 }
 form {
-  background-color: black;
-  color: #a917de;
+  background-color: #7c1e8d;
+  color: #f0eaf2;
   padding: 20px;
   margin: 15px;
 }
@@ -183,8 +186,8 @@ textarea {
   flex-direction: row;
 }
 #Messages li {
-  background-color: #a917de;
-  color: #35323f;
+  background-color: #7c1e8d;
+  color: white;
   width: 100%;
   padding: 10px;
   font-size: 16px;
@@ -198,7 +201,7 @@ ul {
 }
 li {
   width: 150px;
-  background-color: #a917de;
+  background-color: #7c1e8d;
   margin: 10px;
   border-radius: 5px;
 }
@@ -207,6 +210,6 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #4a4747;
-  background: #ccc;
+  color: #ee23c8;
+  background: white;
 }
